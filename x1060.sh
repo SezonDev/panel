@@ -1,9 +1,3 @@
-#!/bin/bash
-#
-sudo apt-get update && apt-get upgrade -y && apt-get install lsb-release nscd curl nano php7 php7-mysql php7-cli php7-curl unzip screen build-essential -y && apt-get install php7-mcrypt && php5enmod mcrypt
-
-sudo service apache2 restart
-
 cd /var/www/xtream
 
 wget http://kodi.ps/iptv/x1060.tar.gz
